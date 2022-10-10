@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+
+.container_element {
+    background-image: url(../img/lips_solo.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadein 2.5s;
+    z-index: 1;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inner_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
